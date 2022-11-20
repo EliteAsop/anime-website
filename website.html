@@ -1,0 +1,78 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="website.html"><img src="anim.webp"></a>
+         <div class="nav-links">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            
+
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Anime is Love</h1>
+    <p>website to watch Anime</p>
+    <a href="" class="hero-btn">Visit us to know more</a>
+</div>
+</section>
+
+<!---course---->
+<section class="course">
+    <h1>Anime which you can watch here</h1>
+    <p>One piece, Death note, Demon slayer etc.     </p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Science</h3>
+            <p>Dokutā Sutōn</p>
+            <p>(Dr. Stone)</p>
+        </div>
+        <div class="course-col">
+            <h1>Adventure</h1>
+            <p>Wan Pīsu</p>
+            <p>(One piece)</p>
+        </div>
+        <div class="course-col">
+            <h3>Fighting </h3>
+            <p>Demon Slayer: Kimetsu no Yaiba</p>
+        </div>
+    </div>
+</section>
+
+<!---image-->
+<section class="image">
+    
+    <div class="row">
+        <div class="image-col">
+            <img src="stone.jpg">
+        </div>
+        <div class="image-col">
+            <img src="piece.jpg">
+        </div>
+        <div class="image-col">
+            <img src="demon.jpg">
+        </div>
+    </div>
+</section>
+
+<!-----java script for toggle menu for in and out----->
+<script>
+    var navLinks=document.getElementById("navlinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</html>
