@@ -189,9 +189,14 @@ h3{
     background: rgba(226,0,0,0.7);
 }
 .video{
-    margin-top:100%;
+    margin-top:10px;
+    margin-left: 6%;
     
-    
-    
+}
+
+/*search bar*/
+.search{
+  margin-left: 65%;
+
 }
 
