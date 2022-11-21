@@ -193,6 +193,11 @@ h3{
     margin-left: 6%;
     
 }
+@media(max-width:700px){
+    .video{
+        flex-direction: column;
+    }
+}
 
 /*search bar*/
 .search{
